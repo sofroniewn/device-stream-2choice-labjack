@@ -1,6 +1,6 @@
 {
   "name": "device-stream-2choice-labjack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Stream of two buttons and leds from labjack",
   "main": "index.js",
   "scripts": {
