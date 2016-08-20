@@ -1,0 +1,32 @@
+{
+  "name": "device-stream-2choice-labjack",
+  "version": "0.0.0",
+  "description": "Stream of two buttons and leds from labjack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofroniewn/device-stream-2choice-labjack.git"
+  },
+  "keywords": [
+    "device",
+    "stream",
+    "2choice",
+    "labjack"
+  ],
+  "author": "Nicholas Sofroniew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sofroniewn/device-stream-2choice-labjack/issues"
+  },
+  "homepage": "https://github.com/sofroniewn/device-stream-2choice-labjack#readme",
+  "dependencies": {
+    "duplexify": "^3.4.5",
+    "from2": "^2.3.0",
+    "labjack-nodejs": "0.0.55",
+    "nanotimer": "^0.3.14",
+    "to2": "^1.0.0"
+  }
+}
