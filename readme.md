@@ -9,7 +9,7 @@ This module listens to a red and blue button, and controls red and blue led conn
 
 
 ## Usage
-`js
+```js
 var device = require('device-stream-2choice-labjack')
 var address = {
   blueButton = 'FIO0',
@@ -21,7 +21,7 @@ var dStream = device.createStream(address)
 
 dStream.write({blueLED: false, redLED: true})
 dStream.on('data', console.log)
-`
+```
 
 ## API
 
